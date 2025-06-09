@@ -1,4 +1,4 @@
-🎮 VideoGame Catalog - Aplicación Web de Catálogo de Videojuegos
+🎮 VideoGame Catalog Para carlos- Aplicación Web de Catálogo de Videojuegos
 Descripción
 VideoGame Catalog es una aplicación web desarrollada como proyecto personal por David, un estudiante y apasionado de los videojuegos. Ante el crecimiento constante de su colección, David decidió crear una herramienta que le permita registrar, organizar y consultar fácilmente sus juegos favoritos en una interfaz moderna y funcional.
 
