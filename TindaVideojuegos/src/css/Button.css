@@ -1,0 +1,139 @@
+/* Button.css */
+.custom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  position: relative;
+  overflow: hidden;
+  margin: 0.25rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.custom-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s ease;
+}
+
+.custom-btn:hover::before {
+  left: 100%;
+}
+
+/* Button Types */
+.custom-btn--primary {
+  background: linear-gradient(45deg, #4a7c2a, #6b8e23);
+  color: white;
+}
+
+.custom-btn--primary:hover {
+  background: linear-gradient(45deg, #3d6622, #5a7a1f);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(74, 124, 42, 0.4);
+}
+
+.custom-btn--secondary {
+  background: linear-gradient(45deg, #8b4513, #a0522d);
+  color: white;
+}
+
+.custom-btn--secondary:hover {
+  background: linear-gradient(45deg, #7a3f12, #8b4513);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
+}
+
+.custom-btn--danger {
+  background: linear-gradient(45deg, #dc3545, #c82333);
+  color: white;
+}
+
+.custom-btn--danger:hover {
+  background: linear-gradient(45deg, #c82333, #bd2130);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(220, 53, 69, 0.4);
+}
+
+.custom-btn--outline {
+  background: transparent;
+  border: 2px solid #6b8e23;
+  color: #4a7c2a;
+}
+
+.custom-btn--outline:hover {
+  background: #6b8e23;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(107, 142, 35, 0.3);
+}
+
+/* Button Sizes */
+.custom-btn--small {
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+}
+
+.custom-btn--medium {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.custom-btn--large {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+/* Disabled State */
+.custom-btn--disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.custom-btn--disabled:hover {
+  transform: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon */
+.btn-icon {
+  font-size: 1.1em;
+}
+
+.btn-text {
+  position: relative;
+  z-index: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .custom-btn {
+    width: 100%;
+    margin: 0.25rem 0;
+  }
+  
+  .custom-btn--small {
+    padding: 0.6rem 1.2rem;
+  }
+  
+  .custom-btn--medium {
+    padding: 0.8rem 1.6rem;
+  }
+  
+  .custom-btn--large {
+    padding: 1rem 2rem;
+  }
+}

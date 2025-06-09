@@ -1,0 +1,292 @@
+/* GameTable.css */
+.table-container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.table-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.table-header h3 {
+  color: #1a1a2e;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.games-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.games-table thead {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.games-table th {
+  padding: 1.5rem 1rem;
+  text-align: left;
+  font-weight: bold;
+  color: #e94560;
+  font-size: 1rem;
+  border-bottom: 2px solid #0f3460;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.games-table th:first-child {
+  border-top-left-radius: 15px;
+}
+
+.games-table th:last-child {
+  border-top-right-radius: 15px;
+}
+
+.games-table tbody tr {
+  transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.row-even {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.row-odd {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.games-table tbody tr:hover {
+  background: rgba(233, 69, 96, 0.2);
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.games-table td {
+  padding: 1.2rem 1rem;
+  vertical-align: middle;
+  color: white;
+  font-size: 0.95rem;
+}
+
+/* Estilos específicos para celdas */
+.game-title {
+  font-weight: bold;
+  min-width: 200px;
+}
+
+.game-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.game-name {
+  font-size: 1.1rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.genre-cell {
+  min-width: 120px;
+}
+
+.genre-tag {
+  background: linear-gradient(45deg, #e94560, #f85a3e);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 8px rgba(233, 69, 96, 0.3);
+}
+
+.difficulty-cell {
+  min-width: 110px;
+}
+
+.difficulty-badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.difficulty-easy {
+  background: linear-gradient(45deg, #4ecdc4, #44a08d);
+  color: white;
+}
+
+.difficulty-medium {
+  background: linear-gradient(45deg, #ffa726, #ff7043);
+  color: white;
+}
+
+.difficulty-hard {
+  background: linear-gradient(45deg, #ef5350, #e53935);
+  color: white;
+}
+
+.platform-cell {
+  min-width: 150px;
+}
+
+.platform-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.platform-icon {
+  font-size: 1.2rem;
+}
+
+.platform-name {
+  font-weight: 500;
+}
+
+.year-cell {
+  min-width: 80px;
+  text-align: center;
+}
+
+.year-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.6rem;
+  border-radius: 10px;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.actions-cell {
+  min-width: 120px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.btn-edit,
+.btn-delete {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-edit {
+  background: rgba(76, 175, 80, 0.2);
+  border: 1px solid rgba(76, 175, 80, 0.5);
+}
+
+.btn-edit:hover {
+  background: rgba(76, 175, 80, 0.4);
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.btn-delete {
+  background: rgba(244, 67, 54, 0.2);
+  border: 1px solid rgba(244, 67, 54, 0.5);
+}
+
+.btn-delete:hover {
+  background: rgba(244, 67, 54, 0.4);
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.3);
+}
+
+/* Empty State */
+.empty-table {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #1a1a2e;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.empty-table h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1a1a2e;
+}
+
+.empty-table p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .table-container {
+    padding: 1rem;
+    margin: 0 1rem;
+  }
+  
+  .games-table th,
+  .games-table td {
+    padding: 0.8rem 0.5rem;
+    font-size: 0.85rem;
+  }
+  
+  .game-name {
+    font-size: 1rem;
+  }
+  
+  .platform-info {
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: center;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .table-wrapper {
+    font-size: 0.8rem;
+  }
+  
+  .games-table th,
+  .games-table td {
+    padding: 0.6rem 0.3rem;
+  }
+  
+  .genre-tag,
+  .difficulty-badge {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+  }
+}
