@@ -1,35 +1,31 @@
-🎮 VideoGame Catalog Para carlos- Aplicación Web de Catálogo de Videojuegos
-Descripción
-VideoGame Catalog es una aplicación web desarrollada como proyecto personal por David, un estudiante y apasionado de los videojuegos. Ante el crecimiento constante de su colección, David decidió crear una herramienta que le permita registrar, organizar y consultar fácilmente sus juegos favoritos en una interfaz moderna y funcional.
+# 🎮 VideoGame Catalog Para Carlos - Aplicación Web de Catálogo de Videojuegos
 
-La aplicación está construida con React.js y funciona como un CRUD completo, permitiendo añadir, editar, eliminar y visualizar videojuegos, junto con información relevante como:
+## Descripción
 
-🎮 Título del videojuego
+**VideoGame Catalog** es una aplicación web desarrollada como proyecto personal por David, un estudiante y apasionado de los videojuegos. Ante el crecimiento constante de su colección, David decidió crear una herramienta que le permita registrar, organizar y consultar fácilmente sus juegos favoritos en una interfaz moderna y funcional.
 
-🕹 Plataforma
+La aplicación está construida con **React.js** y funciona como un **CRUD completo**, permitiendo añadir, editar, eliminar y visualizar videojuegos, junto con información relevante como:
 
-🧩 Género
+- 🎮 Título del videojuego  
+- 🕹 Plataforma  
+- 🧩 Género  
+- 📆 Año de lanzamiento  
 
-📆 Año de lanzamiento
+## Características
 
-⭐ Calificación personal
+- ✅ Interfaz intuitiva y amigable  
+- 🛠 Funcionalidad CRUD (Crear, Leer, Actualizar, Eliminar)  
+- 📱 Diseño adaptable para distintos tamaños de pantalla  
+- 📋 Organización clara de la biblioteca personal de juegos  
 
-Características
-✅ Interfaz intuitiva y amigable
+## Tecnologías Utilizadas
 
-🛠 Funcionalidad CRUD (Crear, Leer, Actualizar, Eliminar)
+- ⚛️ **React.js** (Frontend)  
+- 💅 **CSS / Styled Components** (o la librería de estilos utilizada)  
+- 📦 **React Router** para navegación de páginas y **Custom Hooks**  
 
-📱 Diseño adaptable para distintos tamaños de pantalla
+## 🎥 Video demostrativo
 
-📋 Organización clara de la biblioteca personal de juegos
+[![Video demostrativo](https://img.youtube.com/vi/v0z7XIwpNa4/0.jpg)](https://youtu.be/v0z7XIwpNa4)
 
-Tecnologías Utilizadas
-⚛️ React.js (Frontend)
-
-💅 CSS / Styled Components (o librería de estilos utilizada)
-
-📦 React Router para navegacion de pagina y custom Hooks
-
-
-Video demostrativo:
-[Video demostrativo](https://youtu.be/v0z7XIwpNa4)
+Haz clic en la imagen para ver el video en YouTube.
