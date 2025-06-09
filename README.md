@@ -32,4 +32,4 @@ Tecnologías Utilizadas
 
 
 Video demostrativo:
-[text](https://youtu.be/v0z7XIwpNa4)
+[Video demostrativo](https://youtu.be/v0z7XIwpNa4)
